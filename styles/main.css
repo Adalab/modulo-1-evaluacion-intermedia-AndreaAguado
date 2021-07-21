@@ -46,18 +46,9 @@ body {
   font-size: 30px;
   text-transform: capitalize;
   font-weight: 700;
-  width: 150px;
+  word-spacing: 100vw;
+  text-align: center;
 }
-/* .text-container {
-  background-color: yellowgreen;
-  height: 200px;
-  width: 250px;
-  display: inline-block;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
 
 @media all and (min-width: 768px) {
   .header {
