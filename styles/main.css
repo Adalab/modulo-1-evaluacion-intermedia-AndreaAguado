@@ -46,17 +46,26 @@ body {
   font-size: 30px;
   text-transform: capitalize;
   font-weight: 700;
+  width: 150px;
 }
-.text-container {
+/* .text-container {
+  background-color: yellowgreen;
+  height: 200px;
+  width: 250px;
+  display: inline-block;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-}
+  justify-content: center;
+  align-items: center;
+} */
 
 @media all and (min-width: 768px) {
   .header {
     flex-direction: row;
     justify-content: space-between;
     padding: 20px 30px;
+  }
+  .title {
+    font-size: 40px;
   }
 }
